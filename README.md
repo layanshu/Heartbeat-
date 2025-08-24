@@ -21,20 +21,27 @@ Setup
 1. Clone the repository:
 `bash
 git clone https://github.com/yourusername/heartbeat-bot.git
+
 cd heartbeat-bot
 
 on target machine 
 
 #!/bin/bash
 git clone https://github.com/yourusername/heartbeat-bot.git
+
 cd heartbeat-bot
+
 sudo cp heartbeat.env.example /etc/heartbeat.env
+
 sudo nano /etc/heartbeat.env
+
 chmod +x install_heartbeat.sh
+
 ./install_heartbeat.sh
 
 then 
 sudo cp heartbeat.env.example /etc/heartbeat.env
+
 sudo nano /etc/heartbeat.env
 
 add your 
@@ -43,11 +50,15 @@ and
 chat_id
 
 then make installer script executable 
+
 chmod +x install_heartbeat.sh
+
 ./install_heartbeat.sh
 
 in case to uninstall 
+
 chmod +x uninstall_heartbeat.sh
+
 ./uninstall_heartbeat.sh
 
 
